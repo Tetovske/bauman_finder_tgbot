@@ -11,7 +11,8 @@ namespace PersonFinder.src.Scenarious
     public class PersonFinderUser
     {
         public User telegramUser { get; set; }
+        public int userID { get; set; }
         public Scenario scenario { get; set; }
-
+        
     }
 }

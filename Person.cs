@@ -8,14 +8,13 @@ namespace PersonFinder.src
 {
     public class Person
     {
-        public string fullName, points, year, ldNumber, group;
-        public StudyForm formOfStudy;
-        /*
-        public Person(string fullName, string points, string year, string ldNumber, StudyForm studyForm)
-        {
+        public string fullName { get; set; }
+        public string points{ get; set; }
+        public string year { get; set; }
+        public string ldNumber { get; set; }
+        public string group { get; set; }
 
-        }
-        */
+        public StudyForm formOfStudy { get; set; }
         public enum StudyForm
         {
             budget,

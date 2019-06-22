@@ -14,7 +14,6 @@ namespace PersonFinder.src
     public static class PdfExplorer
     {
         private static List<Document> docs = new List<Document>();
-
         public static List<DatabaseCell> Parse(List<Document> docs)
         {
             List<DatabaseCell> list = new List<DatabaseCell>();
