@@ -10,8 +10,8 @@ namespace PersonFinder.src
     public static class BotController
     {
         public static ITelegramBotClient bot { get; private set; }
-        //private static string apiKey = "761033843:AAF8yccr-S976aCGLtjNrJvWeQ4IvtkIyuI"; 
-        private static string apiKey = "849178454:AAFQvf--TPQQmWACOYdpMmWLF1idQT_DUhk";
+        //private static string apiKey = ""; 
+        private static string apiKey = "";
         public static void InitBot()
         {
             bot = new TelegramBotClient(apiKey)
